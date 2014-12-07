@@ -10,6 +10,7 @@ Side panel slider plugin (jQuery) that also slides page (inspired on medium).
 * support multiple panels on same page
 * support closing when clicking outside panel or pressing ESC.
 * play well with angularJS directives (Example comming soon)
+* support full width panel.
 
 
 # Installation
@@ -20,11 +21,6 @@ Include [jQuery](http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.j
 <script src="jquery.panelslider.min.js"></script>
 ```
 
-[Bower](https://github.com/bower/bower) users can get the source with:
-
-```sh
-bower install jquery-panelslider
-```
 
 # Usage
 
@@ -67,11 +63,12 @@ defaults = {
   side: 'left',      // Panel side: left or right
   duration: 200,     // Transition duration in miliseconds
   clickClose: true,  // If true closes panel when clicking outside it
-  onOpen: null       // When supplied, function is called after the panel opens
+  onOpen: null,       // When supplied, function is called after the panel opens
+  fullWidth: false   // full width size panel open
 }
 ```
 
 A call with no arguments is equivalent to:
 ```javascript
-$('#my-panel').panelslider({side: 'left', duration: 200, clickClose: true, onOpen: null });
+$('#my-panel').panelslider({side: 'left', duration: 200, clickClose: true, fullWidth: true , onOpen: null });
 ```
