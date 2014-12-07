@@ -1,10 +1,10 @@
 {
     "name": "panel-slider",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "title": "jQuery Panel Slider",
     "author": {
-        "name": "Eduardo Martins Barbosa",
-        "email": "eduardomb@ufmg.br"
+        "name": "Shin Gyuha",
+        "email": "nicegyuha@gmail.com"
     },
     "licenses": [{
         "type": "MIT",
@@ -13,7 +13,7 @@
     "dependencies": {
       "jquery": "~2.1.0"
     },
-    "description": "Side panel slider plugin that also slides page (inspired on medium)",
+    "description": "Side panel slider plugin (jQuery) that also slides page. Forked from https://github.com/eduardomb/jquery-panelslider",
     "keywords": [
       "panel",
       "menu",

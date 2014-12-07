@@ -1,6 +1,7 @@
 /*
- * jQuery Panel Slider plugin v0.1.1
+ * jQuery Panel Slider plugin v0.1.2
  * branch by : https://github.com/eduardomb/jquery-panelslider
+ * https://github.com/gyuha/jquery-panelslider
  */
 (function($) {
     'use strict';
