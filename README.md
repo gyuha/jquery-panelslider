@@ -2,7 +2,7 @@
 
 Side panel slider plugin (jQuery) that also slides page (inspired on medium).
 
-[Live demo](http://eduardomb.github.io/jquery-panelslider).
+[Live demo](http://gyuha.github.io/jquery-panelslider).
 
 # Features
 
